@@ -6,5 +6,31 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent {
-public data = false;
+public data = [
+  {
+    name: 'Alpha',
+    id:1,
+  },
+  {
+    name: 'Beta',
+    id:2,
+  },
+  {
+    name: 'Gamma',
+    id:3,
+  },
+  {
+    name: 'Theta',
+    id:4
+  },
+  {
+    name: 'Psi',
+    id:5
+  },
+  {
+    name: 'Delta',
+    id:6
+  },
+
+]
 }
